@@ -36,10 +36,3 @@ The Clinical Decision Support (CDS) module processes the output from the detecti
   - Hoh, Brian L et al. “2023 Guideline for the Management of Patients With Aneurysmal Subarachnoid Hemorrhage.”
 
 - **Code Location**: `./Clinical Decision Support`
-  
-## Installation and Setup
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/ICH-Assistant.git
-   cd ICH-Assistant

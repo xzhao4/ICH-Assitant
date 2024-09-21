@@ -1,0 +1,27 @@
+################################################
+# ITK-SnAP Label Description File
+# File format: 
+# IDX   -R-  -G-  -B-  -A--  VIS MSH  LABEL
+# Fields: 
+#    IDX:   Zero-based index 
+#    -R-:   Red color component (0..255)
+#    -G-:   Green color component (0..255)
+#    -B-:   Blue color component (0..255)
+#    -A-:   Label transparency (0.00 .. 1.00)
+#    VIS:   Label visibility (0 or 1)
+#    IDX:   Label mesh visibility (0 or 1)
+#  LABEL:   Label description 
+################################################
+    0     0    0    0        0  0  0    "Clear Label"
+  200   186  194  212        1  1  1    "Deep_R"
+  201   228  206  206        1  1  1    "Deep_L"
+  202     0  209   94        1  1  1    "BrainStem_R"
+  203   167  121  121        1  1  1    "Lobar_R"
+  204   190  181  164        1  1  1    "Lobar_L"
+  205   140  140  140        1  1  1    "BrainStem_L"
+  206   188  203  176        1  1  1    "Cerebellum_R"
+  207   248  241  224        1  1  1    "Cerebellum_L"
+  208   255  119  255        1  1  1    "3rd4th ventricles_L"
+  209   227  140  122        1  1  1    "Lateral ventricle_R"
+  210   135  206  235        1  1  1    "Lateral ventricle_L"
+  211   255  215  231        1  1  1    "3rd4th ventricles_R"

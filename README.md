@@ -27,12 +27,18 @@ The registration module automatically determines the location of the lesions, in
 - **Code Location**: `./Registration`
 - **Resources**: Includes standard brain templates and detailed documentation.
 
-### 4. Clinical Decision Support
-The Clinical Decision Support (CDS) module processes the output from the detection, segmentation, and registration modules, generating case-specific recommendations for further examination and treatment.
 
-- **Process**: The module exports ICH location and volume data as JSON files, and uses a large language model (GPT-4o-mini) to provide clinical guidance based on the following guidelines:
-  - Greenberg, Steven M et al. “2022 Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage.”
-  - Hawryluk, Gregory W J et al. “2020 Update of the Decompressive Craniectomy Recommendations.”
-  - Hoh, Brian L et al. “2023 Guideline for the Management of Patients With Aneurysmal Subarachnoid Hemorrhage.”
 
+### 5. Clinical Decision Support
+The Clinical Decision Support module processes the output from the detection, segmentation, registration, and hydrocephalus and midline shift modules, generating case-specific recommendations for further examination and treatment.
+
+- **Process**: The module exports ICH evaluation results as JSON files, and uses a large language model (GPT-4o-2024-11-20) to provide clinical guidance based on the following guidelines and clinical tirals:
+  - Greenberg, Steven M et al. 2022 Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage.
+  - Hawryluk, Gregory W J et al. 2020 Update of the Decompressive Craniectomy Recommendations.
+  - Hoh, Brian L et al. 2023 Guideline for the Management of Patients With Aneurysmal Subarachnoid Hemorrhage.
+  - Li G, Lin Y et al. Intensive Ambulance-Delivered Blood-Pressure Reduction in Hyperacute Stroke. 
+  - Pradilla G, Ratcliff JJ et al. Trial of Early Minimally Invasive Removal of Intracerebral Hemorrhage. 
+  - Ma L, Hu X et al. The third Intensive Care Bundle with Blood Pressure Reduction in Acute Cerebral Haemorrhage Trial (INTERACT3): an international, stepped wedge cluster randomised controlled trial.
+  - Connolly SJ, Sharma M et al, Andexanet for Factor Xa Inhibitor-Associated Acute Intracerebral Hemorrhage
+  - Beck J, Fung C et al,. Decompressive craniectomy plus best medical treatment versus best medical treatment alone for spontaneous severe deep supratentorial intracerebral haemorrhage: a randomised controlled clinical trial
 - **Code Location**: `./Clinical Decision Support`

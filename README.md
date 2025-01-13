@@ -27,6 +27,11 @@ The registration module automatically determines the location of the lesions, in
 - **Code Location**: `./Registration`
 - **Resources**: Includes standard brain templates and detailed documentation.
 
+### 4. Hydrocephalus and Midline Shift
+
+The **Hydrocephalus and Midline Shift** modules determine whether ICH is associated with hydrocephalus or midline shift.
+
+- **Code Reference**: Built using YOLOv8. For more details, visit the YOLOv8 documentation: [YOLOv8 GitHub](https://github.com/ultralytics/ultralytics/tree/main/docs/en/models).
 
 
 ### 5. Clinical Decision Support
